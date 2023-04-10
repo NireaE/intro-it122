@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+            color: black;
+            background: white;
+            margin: 8px;
+        }
+
+        .self-intro, h1 {
+            
+            margin: 20px auto;
+            width: 60%;
+        }
+        
+        h1{
+            text-align: center;
+
+        }
+
+    </style>
+    
+</head>
+<body>
+    <h1>Introduction</h1>
+        
+    <div class="self-intro"> 
+        <p>
+            Hi, my name is <span id="FirstName"> firstName</span> <span id="LastName"> lastName</span> and my pronouns are <span id="Pronouns"> Pronouns</span>. I have been at SCC for <span id= "YearsOfStudy"> yearsOfStudy</span> months in the application development track taking JavaScript 1, Database development, Object-oriented programming, Software development tools, Project management, and Career exploration courses, and plan to be a <span id="Goal">goal</span> after completing my courses.
+        </p>
+        <p>
+            A fun fact about me is that I can speak three languages including english. 
+            Outside class, I enjoy watching soccer games, movies, and playing soccer sometimes even though I don't play that much nowadays.
+        </p>
+    </div>
+    <script type="" src="script.js"></script> 
+    <script>        
+        document.getElementById("FirstName").innerHTML = firstName;
+        document.getElementById("LastName").innerHTML = lastName;
+        document.getElementById("Pronouns").innerHTML = pronouns;
+        document.getElementById("YearsOfStudy").innerHTML = yearsOfStudy;
+        document.getElementById("Goal").innerHTML = goal;     
+    </script>   
+</body>
+</html>
